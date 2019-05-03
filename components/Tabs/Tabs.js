@@ -14,7 +14,9 @@ class TabLink {
     // this.tabItem;
     this.tabItem = new tabItem(this.itemElement);
     // Add a click event listener on this instance, calling the select method on click
-    this.element.addEventListener('click', evt => this.select(evt) )
+    this.element.addEventListener('click', () => {
+      this.select();
+    })
   };
 
   select() {
