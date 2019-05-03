@@ -31,7 +31,7 @@ class TabLink {
     // this.element;
     this.element.classList.add('tabs-link-selected');
     // Call the select method on the item associated with this link
-    this.TabItem.select();
+    this.tabItem.select();
   }
 }
 
